@@ -10,21 +10,52 @@ const Dashboard = () => {
     <div>
       <h>My Plants</h>
     </div>
-    <div className="flex justify-center items-center h-screen">
-    <div className="card w-80 h-96 shadow-xl">
-        <figure className="px-10 pt-10">
-            <img alt="plant" src="/plant.jpg" className="rounded-xl" />
-        </figure>
-        <div className="card-body items-center text-center">
-            <h2 className="card-title">Plant Name</h2>
-            {/* <p>Description if required</p> */}
-            <div className="card-actions">
-                <button className="btn btn-primary">Buy Now</button>
-                <button className="btn btn-primary">Buy Now</button>
-                <button className="btn btn-primary">Buy Now</button>
+    <div className="grid grid-cols-2 md:grid-cols-3 gap-6 flex justify-center items-center h-screen">
+        <div className="card w-80 h-112 shadow-xl  mx-auto">
+            <figure className="px-5 pt-5">
+                <img alt="plant" src="/plant.jpg" className="rounded-xl" />
+            </figure>
+            <div className="card-body items-left text-center">
+                <h2 className="card-title">Plant Name</h2>
+                {/* <p>Description if required</p> */}
+                <div className="card-actions">
+                    <button className="btn btn-primary">Buy Now</button>
+                    <button className="btn btn-primary">Buy Now</button>
+                    <button className="btn btn-primary">Buy Now</button>
+                </div>
             </div>
         </div>
-    </div>
+
+        
+        <div className="card w-80 h-112 shadow-xl mx-auto">
+            <figure className="px-5 pt-5">
+                <img alt="plant" src="/plant.jpg" className="rounded-xl" />
+            </figure>
+            <div className="card-body items-left text-center">
+                <h2 className="card-title">Plant Name</h2>
+                {/* <p>Description if required</p> */}
+                <div className="card-actions">
+                    <button className="btn btn-primary">Buy Now</button>
+                    <button className="btn btn-primary">Buy Now</button>
+                    <button className="btn btn-primary">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div className="card w-80 h-112 shadow-xl mx-auto">
+            <figure className="px-5 pt-5">
+                <img alt="plant" src="/plant.jpg" className="rounded-xl" />
+            </figure>
+            <div className="card-body items-left text-center">
+                <h2 className="card-title">Plant Name</h2>
+                {/* <p>Description if required</p> */}
+                <div className="card-actions">
+                    <button className="btn btn-primary">Buy Now</button>
+                    <button className="btn btn-primary">Buy Now</button>
+                    <button className="btn btn-primary">Buy Now</button>
+                </div>
+            </div>
+        </div>
     </div>  
     </>
   );
