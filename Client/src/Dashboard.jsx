@@ -4,14 +4,14 @@ import React, { useState } from 'react'; // Import the React library
 const Dashboard = () => {
   return (
     <>
-    <div>
+    <div className="flex flex-col items-left justify-center text-xl mt-10 ml-20">
       <h>Hi "name of student"</h>
     </div>
-    <div>
+    <div className="flex flex-col items-center justify-center text-2xl mt-10">
       <h>My Plants</h>
     </div>
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 flex justify-center items-center h-screen">
-        <div className="card w-72 h-96 shadow-xl  mx-auto">
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 flex justify-center items-center mt-20">
+        <div className="card w-72 h-96 shadow-xl shadow-neutral mx-auto">
             <figure className="px-5 pt-5">
                 <img alt="plant" src="/plant.jpg" className="rounded-xl" />
             </figure>
@@ -27,7 +27,7 @@ const Dashboard = () => {
         </div>
 
         
-        <div className="card w-72 h-96 shadow-xl  mx-auto">
+        <div className="card w-72 h-96 shadow-xl shadow-neutral mx-auto">
             <figure className="px-5 pt-5">
                 <img alt="plant" src="/plant.jpg" className="rounded-xl" />
             </figure>
@@ -42,7 +42,7 @@ const Dashboard = () => {
             </div>
         </div>
 
-        <div className="card w-72 h-96 shadow-xl  mx-auto">
+        <div className="card w-72 h-96 shadow-xl shadow-neutral  mx-auto">
             <figure className="px-5 pt-5">
                 <img alt="plant" src="/plant.jpg" className="rounded-xl" />
             </figure>
@@ -57,7 +57,7 @@ const Dashboard = () => {
             </div>
         </div>
 
-        <div className="card w-72 h-96 shadow-xl  mx-auto">
+        <div className="card w-72 h-96 shadow-xl shadow-neutral  mx-auto">
             <figure className="px-5 pt-5">
                 <img alt="plant" src="/plant.jpg" className="rounded-xl" />
             </figure>
