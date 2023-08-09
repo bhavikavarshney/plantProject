@@ -27,7 +27,7 @@ const Login =() => {
         
         <h4 
             className="w-full text-center text-sm text-gray-500 mt-6"
-            >Don't have an account? <a href="#"> Sign Up</a>
+            >Don't have an account? <a href="#" className="text-purple-400"> Sign Up</a>
         </h4>
         </form>
         </div>
