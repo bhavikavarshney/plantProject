@@ -12,9 +12,11 @@ const Dashboard = () => {
             <img alt="plant" src="/plant.jpg" className="rounded-xl" />
         </figure>
         <div className="card-body items-center text-center">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <h2 className="card-title">Plant Name</h2>
+            {/* <p>Description if required</p> */}
         <div className="card-actions">
+            <button className="btn btn-primary">Buy Now</button>
+            <button className="btn btn-primary">Buy Now</button>
             <button className="btn btn-primary">Buy Now</button>
         </div>
         </div>
@@ -24,9 +26,11 @@ const Dashboard = () => {
             <img src="/plant.jpg" alt="Shoes" className="rounded-xl" />
         </figure>
         <div className="card-body items-center text-center">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <h2 className="card-title">Plant Name</h2>
+            {/* <p>Description if required</p> */}
         <div className="card-actions">
+            <button className="btn btn-primary">Buy Now</button>
+            <button className="btn btn-primary">Buy Now</button>
             <button className="btn btn-primary">Buy Now</button>
         </div>
         </div>
