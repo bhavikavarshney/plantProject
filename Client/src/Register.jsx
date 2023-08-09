@@ -4,7 +4,7 @@ const Register = () => {
   return (
     <div className="flex flex-col">
       <form className="space-y-4">
-        <div>
+        <div className="flex flex-col">
           <input
             type="text"
             placeholder="Email ID"
@@ -16,7 +16,7 @@ const Register = () => {
             className="input input-ghost w-full max-w-xs"
           />
           <input
-            type="password"  // Changed to password type for password fields
+            type="password"
             placeholder="Confirm Password"
             className="input input-ghost w-full max-w-xs"
           />
