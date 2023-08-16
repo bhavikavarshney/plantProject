@@ -1,8 +1,8 @@
-import Login from './Login'
+import AdminOverview from './AdminOverview'
 
 export default function App() {
   return (
-    <Login />
+    <AdminOverview />
   )
 }
 
