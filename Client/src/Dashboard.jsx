@@ -11,7 +11,7 @@ const Dashboard = () => {
     </div>
     <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2 lg:gap-6 flex justify-center items-center mt-20 mx-auto">
     {Array.from({ length: 4 }).map((_, index) => (
-        <div key={index} className="card lg:w-72 lg:h-96 shadow-xl hover:shadow-neutral mb-10 ml-3 mr-3">
+        <div key={index} className="card lg:w-72 lg:h-96 shadow-xl hover:shadow-neutral mb-10 ml-3 mr-3 xl:mx-auto">
             <figure className="px-5 pt-5">
                 <img alt="plant" src="/plant.jpg" className="rounded-xl"/>
             </figure>
