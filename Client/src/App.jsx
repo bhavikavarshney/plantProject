@@ -1,8 +1,11 @@
-import AdminOverview from './AdminOverview'
-
-export default function App() {
+import React from 'react'
+import Register from './Register'
+const App = () => {
   return (
-    <AdminOverview />
+    <div>
+      <Register />
+    </div>
   )
 }
 
+export default App

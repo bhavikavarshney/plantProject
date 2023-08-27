@@ -1,54 +1,48 @@
-import React from "react";
+import React from 'react'
 
 const Register = () => {
   return (
-    <div className="flex flex-col">
-      <form className="space-y-4">
-        <div>
-          <input
-            type="text"
-            placeholder="Email ID"
-            className="input input-ghost w-full max-w-xs"
-          />
-          <input
-            type="password"  
-            placeholder="Password"
-            className="input input-ghost w-full max-w-xs"
-          />
-          <input
-            type="password"  // Changed to password type for password fields
-            placeholder="Confirm Password"
-            className="input input-ghost w-full max-w-xs"
-          />
-          <input
-            type="text"
-            placeholder="SRN"
-            className="input input-ghost w-full max-w-xs"
-          />
+    <div className="form-control w-full max-w-xs">
+  <label className="label">
+    <span className="label-text">Name</span>
+  </label>
+  <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
 
-              <select className="select select-ghost w-full max-w-xs">
-                <option disabled defaultValue>
-                  Class
-                </option>
-                <option>Svelte</option>
-                <option>Vue</option>
-                <option>React</option>
-              </select>
+  <label className="label">
+    <span className="label-text">Email</span>
+  </label>
+  <input type="Email" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
 
-              <select className="select select-ghost w-full max-w-xs">
-                <option disabled defaultValue>
-                  Section
-                </option>
-                <option>Svelte</option>
-                <option>Vue</option>
-                <option>React</option>
-              </select>
-          </div>
 
-          <input type="submit" value="Sign Up" className="btn" />
-      </form>
-    </div>
-  );
-};
+  <label className="label">
+    <span className="label-text">SRN</span>
+  </label>
+  <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
 
-export default Register;
+  
+
+
+
+  <label className="label">
+    <span className="label-text">Password</span>
+  </label>
+  <input type="password" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
+
+
+
+  <label className="label">
+    <span className="label-text">Confirm Password</span>
+  </label>
+  <input type="password" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
+
+    
+
+  <button className="btn btn-xs m-2 sm:btn-sm md:btn-md ">Sign Up</button>
+
+
+
+</div>
+  )
+}
+
+export default Register
